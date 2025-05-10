@@ -48,7 +48,7 @@ st.title("Chat")
 
 # OpenAI API parameters
 OPENAI_MODEL = "chatgpt-4o-latest"
-TEMPERATURE = 1.0  # Default temperature (0.0 to 2.0)
+TEMPERATURE = 0.7  # Default temperature (0.0 to 2.0)
 TOP_P = 1.0        # Default top_p (0.0 to 1.0)
 
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
